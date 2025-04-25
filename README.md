@@ -4,9 +4,9 @@ An ERC4626-compliant vault implementation with fee mechanisms for Polar Token (P
 
 The vault implements standard ERC4626 functionality with added features including configurable entry fees paid to the vault owner and an automatic 10% interest addition on deposits.
 
-`Vault.sol` - The main vault contract extending ERC4626Fees with deposit, mint, withdraw, and redeem functions.
+`Vault.sol` - The main vault contract extending ERC4626Fees with deposit, mint, withdraw, and redeem functions. Deployed contract address on base sepolia testnet: 0x71DA950db7473A0A811349d8c405A237eB9e22a2
 
-`VaultToken.sol` - A simple ERC20 token implementation representing the underlying Polar Token (PT).
+`VaultToken.sol` - A simple ERC20 token implementation representing the underlying Polar Token (PT). Deployed contract address on base sepolia testnet: 0x0BD22B19807fa09Fe508437B288E5023e27BDf2F
 
 ## Usage
 
